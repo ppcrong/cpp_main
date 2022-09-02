@@ -19,9 +19,13 @@ OUTPUT	:= output
 
 # define source directory
 SRC		:= src
+SRC		+= ../../libs/cpp_lib1
+SRC		+= ../../libs/cpp_lib2
 
 # define include directory
 INCLUDE	:= include
+INCLUDE	+= ../../libs/cpp_lib1/include
+INCLUDE	+= ../../libs/cpp_lib2/include
 
 # define lib directory
 LIB		:= lib
