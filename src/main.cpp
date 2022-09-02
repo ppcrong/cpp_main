@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[])
 {
-	std::cout << "Hello world! v2.0" << std::endl << std::endl;
+	std::cout << "Hello world!" << std::endl << std::endl;
 
 	FuncAdd a;
 	std::cout << "add(1, 1) = " << a.add(1, 1) << std::endl << std::endl;
